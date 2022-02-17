@@ -1,25 +1,18 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  padding: 0 30px;
-  background-color: #fff;
-  position: sticky;
-  left: 0;
-  top: 0;
-  z-index: 1;
-}
 .top {
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../img/mv.png) center / cover;
-  color: #fff;
+  background: url(../img/mv.png);
+  color: white;
 }
 .top-title {
   font-weight: bold;
-  font-size: 80px;
+  font-size: 70px;
+  text-align: center;
+}
+.top-subtitle {
+  font-weight: bold;
+  font-size: 20px;
   text-align: center;
 }
