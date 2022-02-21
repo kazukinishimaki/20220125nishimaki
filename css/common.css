@@ -1,3 +1,7 @@
+.img{
+  width: 100%;
+  height: auto;
+}
 .header {
   height: 80px;
   display: flex;
@@ -5,6 +9,8 @@
   align-items: center;
   padding: 0 30px;
   position: fixed;
+  background-color: white;
+  width: 97%;
 }
 
 .header-title {
@@ -21,6 +27,7 @@
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .menu {
@@ -31,12 +38,15 @@ a {
 }
 
 .contact {
-  background-color: lightgray;
+  background-color: rgb(241, 241, 241);
   text-align: center;
+  height: 300px;
+
 }
 .contact-title {
   font-size: 25px;
   font-weight: bold;
+  padding-top: 80px;
 }
 .contact-text {
   margin-top: 10px;
@@ -57,6 +67,10 @@ a {
   justify-content: space-between;
   align-items: center;
   font-size: 12px;
+  height: 60px;
+  padding: 0 60px;
+  background-color: black;
+  color: white;
 }
 .footer-nav-list {
   display: flex;
@@ -68,6 +82,11 @@ a {
 }
 .footer-nav-item:last-child:after {
   display: none;
+}
+
+.pagetop{
+  background: url(../img/mv.png);
+  height: 250px;
 }
 
 @media screen and (max-width: 768px) {
