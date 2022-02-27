@@ -1,7 +1,7 @@
 .top {
   height: 100vh;
   width: 100%;
-  background: url(../img/mv.png);
+  background: url(../img/mv.png) center / cover;
   color: white;
 }
 .top-title {
@@ -17,53 +17,58 @@
   padding-top: 30px;
 }
 
-.top-content{
+.top-content {
   background-color: rgb(36, 36, 36);
   color: white;
   height: 300px;
 }
-.top-content-title{
+.top-content-title {
   font-size: 25px;
   font-weight: bold;
   width: 80%;
   padding-top: 80px;
   margin-left: 80px;
 }
-.top-content-text{
+.top-content-text {
   width: 80%;
   padding-top: 40px;
   line-height: 25px;
   margin-left: 80px;
 }
 
-.service{
+.service {
   width: 85%;
   margin: 0 auto;
 }
-.service-title{
+.service-title {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
   margin-top: 70px;
 }
-.service-list{
+.service-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
-.service-item{
+.service-item {
   width: 45%;
   margin-top: 20px;
 }
-.service-item-title{
+.service-img {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.service-item-title {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 10px;
 }
-.service-item-description{
+.service-item-description {
   line-height: 20px;
 }
-.service-btn{
+.service-btn {
   display: block;
   width: 300px;
   text-align: center;
@@ -74,13 +79,12 @@
   color: white;
 }
 
-
-.news{
+.news {
   background-color: rgb(36, 36, 36);
   height: 400px;
   margin-top: 70px;
 }
-.news-header{
+.news-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,11 +92,11 @@
   margin-left: 100px;
   padding-top: 70px;
 }
-.news-title{
+.news-title {
   font-size: 25px;
   color: white;
 }
-.news-btn{
+.news-btn {
   display: block;
   width: 150px;
   text-align: center;
@@ -101,10 +105,10 @@
   background-color: rgb(255, 0, 0);
   color: white;
 }
-.news-list{
+.news-list {
   margin-top: 20px;
 }
-.news-item{
+.news-item {
   background-color: white;
   padding: 20px;
   display: flex;
@@ -113,38 +117,43 @@
   margin-left: 100px;
   margin-bottom: 10px;
 }
-.news-item-date{
+.news-item-date {
   margin-right: 10px;
 }
 
-.blog{
-  width: 85%;
+.blog {
+  width: 100%;
   margin: 0 auto;
 }
-.blog-title{
+.blog-title {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
   margin-top: 70px;
 }
-.blog-list{
+.blog-list {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
-.blog-item{
+.blog-item {
   width: 30%;
 }
-.blog-item-date{
+.blog-img {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.blog-item-date {
   margin-top: 10px;
   font-size: 15px;
 }
-.blog-item-title
-{
+.blog-item-title {
   font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
-}.blog-btn{
+}
+.blog-btn {
   display: block;
   width: 250px;
   text-align: center;
@@ -155,20 +164,36 @@
   color: white;
 }
 
-.company{
+.company {
   display: flex;
-  align-items: center;
   color: white;
   font-size: 25px;
   font-weight: bold;
+  margin-top: 70px;
 }
-.company-link{
+.company-link {
   background-color: rgb(255, 0, 0);
   width: 50%;
   height: 250px;
+  text-align: center;
+  padding-top: 100px;
 }
-.recruit-link{
+.recruit-link {
   background-color: rgb(36, 36, 36);
   width: 50%;
   height: 250px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .service-item {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .blog-item {
+    width: 100%;
+    margin-right: 0;
+  }
 }

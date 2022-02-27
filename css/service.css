@@ -1,0 +1,26 @@
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding: 20px 0;
+  margin: 70px auto;
+  width: 90%;
+}
+.service-item:last-child {
+  border-bottom: 1px solid black;
+}
+.service-item-img {
+  width: 200px;
+  height: auto;
+}
+.service-item-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .service-item-img {
+    width: 100%;
+  }
+}

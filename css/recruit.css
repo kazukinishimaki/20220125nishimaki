@@ -1,0 +1,34 @@
+.recruit {
+  width: 80%;
+  margin: 70px auto;
+}
+.recruit-title {
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+.recruit-text {
+  margin-top: 20px;
+}
+.recruit-info {
+  border: 1px solid black;
+  margin-top: 30px;
+  width: 100%;
+}
+.info-name,
+.info-text {
+  border-bottom: 1px solid black;
+  padding: 15px;
+}
+.info-name {
+  border-right: 1px solid black;
+  width: 30%;
+  background-color: rgb(228, 226, 226);
+  font-weight: bold;
+}
+.info-text {
+  width: 70%;
+}
+.recruit-2 {
+  margin-top: 50px;
+}

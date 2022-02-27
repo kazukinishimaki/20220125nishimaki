@@ -1,0 +1,17 @@
+.company-info {
+  width: 80%;
+  border-top: 1px solid black;
+  margin: 70px auto;
+}
+.info-name,
+.info-date {
+  border-bottom: 1px solid black;
+  padding: 30px 0;
+}
+.info-name {
+  width: 30%;
+  font-weight: bold;
+}
+.info-date {
+  width: 70%;
+}

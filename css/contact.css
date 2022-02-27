@@ -1,0 +1,32 @@
+.contact-content {
+  margin: 70px auto;
+  width: 80%;
+}
+.form-item-lavel {
+  font-weight: bold;
+}
+.form-item-input,
+.form-item-textarea {
+  width: 100%;
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.form-submit {
+  width: 300px;
+  margin: 30px auto 0;
+  padding: 8px;
+  display: block;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+.lavel-point {
+  color: red;
+  margin-left: 5px;
+}
+.form-item {
+  margin-top: 15px;
+}
