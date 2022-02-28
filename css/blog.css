@@ -1,9 +1,9 @@
 .blog-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  width: 100%;
+  justify-content: space-around;
+  margin: 70px auto;
+  width: 90%;
 }
 .blog-item {
   width: 30%;
