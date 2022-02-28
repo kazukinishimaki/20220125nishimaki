@@ -55,8 +55,8 @@
   width: 45%;
   margin-top: 20px;
 }
-.service-img {
-  max-width: 100%;
+.service-item-img {
+  width: 50%;
   height: auto;
   box-sizing: border-box;
 }
@@ -139,8 +139,8 @@
 .blog-item {
   width: 30%;
 }
-.blog-img {
-  max-width: 100%;
+.blog-item-img {
+  width: 50%;
   height: auto;
   box-sizing: border-box;
 }
