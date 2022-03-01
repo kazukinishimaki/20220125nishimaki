@@ -153,11 +153,16 @@ a {
     font-size: 18px;
   }
 
-  .footer-text {
-    margin: 0 auto;
+  .footer{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-nav-list{
+    display: flex;
+    flex-direction: column;
   }
   .footer-nav-item {
-    text-align: center;
     margin-top: 10px;
     width: 100%;
   }
