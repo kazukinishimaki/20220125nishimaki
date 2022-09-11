@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .header {
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .header-title {
-  font-size: 25px;
+  font-size: 24px;
   width: 80px;
 }
 .header-nav-list {
@@ -37,26 +37,25 @@ a {
 }
 
 .contact {
-  background-color: rgb(241, 241, 241);
+  background-color: #f5f6f9;
   text-align: center;
-  height: 300px;
+  padding: 80px 0;
 }
 .contact-title {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
-  padding-top: 80px;
 }
 .contact-text {
-  margin-top: 10px;
+  margin-top: 25px;
 }
 .contact-btn {
   display: block;
   width: 300px;
   text-align: center;
   font-weight: bold;
-  padding: 10px;
-  margin: 40px auto 0;
-  background-color: rgb(255, 0, 0);
+  padding: 15px;
+  margin: 45px auto 0;
+  background-color: #cd0224;
   color: white;
 }
 
@@ -66,8 +65,8 @@ a {
   align-items: center;
   font-size: 12px;
   height: 60px;
-  padding: 0 60px;
-  background-color: black;
+  padding: 0 75px;
+  background-color: #222222;
   color: white;
 }
 .footer-nav-list {
@@ -153,12 +152,13 @@ a {
     font-size: 18px;
   }
 
-  .footer{
-    height: 200px;
+  .footer {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    height: 250px;
   }
-  .footer-nav-list{
+  .footer-nav-list {
     display: flex;
     flex-direction: column;
   }
