@@ -14,7 +14,6 @@
 
 .header-title {
   font-size: 24px;
-  width: 80px;
 }
 .header-nav-list {
   display: flex;
@@ -61,11 +60,11 @@ a {
 
 .footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   font-size: 12px;
-  height: 60px;
-  padding: 0 75px;
+  padding: 20px 60px;
   background-color: #222222;
   color: white;
 }
@@ -148,23 +147,25 @@ a {
   }
   .drawer-nav-item {
     margin-top: 40px;
-    color: blue;
+    color: #0033cc;
     font-size: 18px;
+    line-height: 1.6;
   }
 
   .footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 250px;
+    padding: 20px 0;
   }
   .footer-nav-list {
     display: flex;
     flex-direction: column;
   }
   .footer-nav-item {
-    margin-top: 10px;
+    line-height: 2.5;
     width: 100%;
+    text-align: center;
   }
   .footer-nav-item:after {
     display: none;
